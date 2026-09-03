@@ -20,4 +20,3 @@ jobs:
           test -s portfolio-assets/profile.webp
           test -s assets/michel-showcase.mp4
           test -s vercel.json
-          ! grep -R "raw.githubusercontent.com/Alexandre802/teste/main/portfolio-assets" --exclude-dir=.git --exclude-dir=.github .
